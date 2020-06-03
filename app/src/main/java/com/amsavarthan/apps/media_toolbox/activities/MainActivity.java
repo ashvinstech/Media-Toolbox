@@ -217,10 +217,10 @@ public class MainActivity extends AppCompatActivity{
         card=new Card("Status Saver",R.mipmap.save_status,R.mipmap.whatsapp,R.color.whatsappAccent);
         cardList.add(card);
 
-        if(num<=0){
-            card=new Card("Video Downloader",R.mipmap.download_video,R.mipmap.youtube,R.color.youtubeAccent);
+        /*if(num<=0){
+            card=new Card("Video Downloader",R.mipmap.download_video,R.mipmap.youtube,R.color.yAccent);
             cardList.add(card);
-        }
+        }*/
 
         card=new Card("Settings",R.mipmap.settings,R.mipmap.settings,R.color.commonToolAccent);
         cardList.add(card);

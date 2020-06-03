@@ -78,7 +78,7 @@
                 android:resource="@xml/provider_paths"/>
         </provider>
 
-        <receiver android:name=".receiverUtbe.DownloadCompletedReceiver"
+        <receiver android:name=".receiver.DownloadCompletedReceiver"
             android:exported="true"
             android:process=".dlFinished">
             <intent-filter>

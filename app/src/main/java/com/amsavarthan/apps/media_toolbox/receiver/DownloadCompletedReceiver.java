@@ -1,4 +1,4 @@
-package com.amsavarthan.apps.media_toolbox.receiverUtbe;
+package com.amsavarthan.apps.media_toolbox.receiver;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;

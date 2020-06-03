@@ -62,7 +62,7 @@ public class SingleVideoAdapter extends RecyclerView.Adapter<SingleVideoAdapter.
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_youtube_single_video, parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_single_video, parent, false);
         context=parent.getContext();
         notificationUtils=new NotificationUtils(context);
         return new ViewHolder(v);

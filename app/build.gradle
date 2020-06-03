@@ -7,8 +7,8 @@ android {
         applicationId "com.amsavarthan.appv2.media_toolbox"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 1
-        versionName "release 2.2.0"
+        versionCode 2
+        versionName "release 2.2.1"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
     }
